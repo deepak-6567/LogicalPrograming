@@ -8,12 +8,12 @@ public class SwapNumbers {
 		System.out.println("Enter the value of b :");
 		int b=sc.nextInt();
 		
-		//a=a+b;
-		int temp=a;
-		a=b;
-		b=temp;
-		//b=a-b;
-		//a=a-b;
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		//int temp=a;
+		//a=b;
+		//b=temp;
 		System.out.println("a ="+ a);
 		System.out.println("b ="+b);
 		
